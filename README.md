@@ -41,6 +41,10 @@ python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
 pip install -r requirements.txt
 ```
+    search on <a>https://pytorch.org/get-started/locally/</a>
+```sh
+pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
+```
 
 ### Step 3: Run
 ```sh
