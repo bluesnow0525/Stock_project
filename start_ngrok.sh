@@ -13,9 +13,9 @@ NGROK_CMD="ngrok start --all --config=${CONFIG_FILE}"
 if [ "$OS" = "Linux" ]; then
     echo "Detected Linux OS"
     $NGROK_CMD
-elif [[ "$OS" == MINGW* || "$OS" == CYGWIN* || "$OS" == MSYS* ]]; then
+elif [[ "$OS" == MINGW* || "$OS" == CYGWIN* || "$OS" == MSYS* || "$OS" == "Windows_NT" ]]; then
     echo "Detected Windows OS"
-    ./ngrok.exe start --all --config=${CONFIG_FILE}
+    $NGROK_CMD
 else
     echo "Unsupported OS: $OS"
     exit 1
