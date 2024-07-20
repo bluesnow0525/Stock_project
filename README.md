@@ -30,34 +30,34 @@ Before you begin, ensure you have met the following requirements:
 
 Clone the project repository to your local machine using the following command:
 
-    ```sh
-    git clone <repository_url>
-    ```
+```sh
+git clone <repository_url>
+```
 
 ### Step 2: Install Dependencies
 
 Navigate to the project directory and install the required Python packages. It's recommended to use a virtual environment.
 
-    ```sh
-    cd stock-backend/src/backend
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    pip install -r requirements.txt
-    ```
+```sh
+cd stock-backend/src/backend
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+pip install -r requirements.txt
+```
 
 For PyTorch installation, visit [PyTorch's Get Started Locally](https://pytorch.org/get-started/locally/) to find the correct installation command for your system. Below is an example command:
 
-    ```sh
-    pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
-    ```
+```sh
+pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
+```
 
 ### Step 3: Run
 
 Navigate to the project directory and run the `run.sh` script:
 
-    ```sh
-    sh ./run.sh
-    ```
+```sh
+sh ./run.sh
+```
 
 This script will:
 - Start `ngrok`
