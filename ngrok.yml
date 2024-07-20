@@ -4,12 +4,12 @@ authtoken: 2I2obkkEeCaqqINvwAbMzZeeuL2_2ngcFmKDa4cqZjPTybaUu
 
 tunnels:
   stock-frontend:
-    addr: 5000
+    addr: 5173
     proto: http
     host_header: localhost
 
   stock-backend:
-    addr: 5173
+    addr: 5000
     proto: http
     host_header: localhost
 
