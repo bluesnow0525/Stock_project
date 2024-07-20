@@ -51,7 +51,7 @@ For PyTorch installation, visit [PyTorch's Get Started Locally](https://pytorch.
 pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
 ```
 
-### Step 3: Run
+### Step 3.1: Run Comprehensive
 
 Navigate to the project directory and run the `run.sh` script:
 
@@ -63,6 +63,15 @@ This script will:
 - Start `ngrok`
 - Fetch the public URL
 - Start the backend services
+
+### Step 3.2: Run Seperately
+```sh
+sh ./start_ngrok.sh
+```
+or
+```sh
+ngrok start --all --config=ngrok.yml
+```
 
 ## Notes
 
