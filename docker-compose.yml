@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./Stock-backend
+    environment:
+      DATABASE_ENGINE: mysql+pymysql://root:890525@host.docker.internal:3306/  # 使用 host.docker.internal 连接本地 MySQL
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build: ./Stock-frontend
+    ports:
+      - "3000:80"
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"

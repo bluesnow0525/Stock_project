@@ -1,0 +1,14 @@
+region: us
+version: '2'
+authtoken: 2I2obkkEeCaqqINvwAbMzZeeuL2_2ngcFmKDa4cqZjPTybaUu
+
+tunnels:
+  test-stock-frontend:
+    addr: 5000
+    proto: http
+    host_header: localhost
+
+  test-stock-backend:
+    addr: 5173
+    proto: http
+    host_header: localhost
