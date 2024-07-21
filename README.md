@@ -70,6 +70,7 @@ This script will:
 - Start `ngrok`
 - Fetch the public URL
 - Start the backend services
+- Start the frontend services
 
 ### Step 3.2: Run Seperately
 ```sh
