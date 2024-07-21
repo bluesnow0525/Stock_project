@@ -39,9 +39,11 @@ git clone <repository_url>
 Navigate to the project directory and install the required Python packages. It's recommended to use a virtual environment.
 
 ```sh
-cd stock-backend/src/backend
-python -m venv env
-source env/bin/activate  # On Windows use `env\Scripts\activate`
+conda update conda
+conda create -n StockEnv python=3.12
+conda activate StockEnv
+conda install pip
+cd Stock-backend
 pip install -r requirements.txt
 ```
 
