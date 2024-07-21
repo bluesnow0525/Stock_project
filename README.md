@@ -50,7 +50,7 @@ pip install -r requirements.txt
 For PyTorch installation, visit [PyTorch's Get Started Locally](https://pytorch.org/get-started/locally/) to find the correct installation command for your system. Below is an example command:
 
 ```sh
-pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
 ```
 For Ngrok installation, visit [Ngrok](https://ngrok.com/) to find the correct installation command for your system
 
