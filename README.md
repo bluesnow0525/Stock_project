@@ -30,6 +30,7 @@ Before you begin, ensure you have met the following requirements:
 
 ```sh
 npm create vite@latest Stock-frontend --template react
+cd Stock-frontend
 npm install
 ```
 
