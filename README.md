@@ -29,7 +29,7 @@ Before you begin, ensure you have met the following requirements:
 ### Step 1: Create a vite react project
 
 ```sh
-npm create vite@latest Stock-frontend --template react
+npm create vite@latest Stock-frontend --template react-ts
 cd Stock-frontend
 npm install
 ```
