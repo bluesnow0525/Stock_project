@@ -26,15 +26,21 @@ Before you begin, ensure you have met the following requirements:
 
 ## Setup
 
-### Step 1: Clone the Repository
+### Step 1: Create a vite react project
+
+```sh
+
+```
+
+### Step 2: Clone the Repository
 
 Clone the project repository to your local machine using the following command:
 
 ```sh
-git clone <repository_url>
+git clone https://github.com/DennisLiu525/Stock_Project.git
 ```
 
-### Step 2: Install Dependencies
+### Step 3: Install Dependencies
 
 Navigate to the project directory and install the required Python packages. It's recommended to use a virtual environment.
 
@@ -58,7 +64,7 @@ For Ngrok basic initialization, visit [Ngrok basic setup](https://happy9990929.g
 
 For Ngrok advance usage, visit [Ngrok advanced usage](https://medium.com/coding-with-fun-favor/%E9%97%9C%E6%96%BC-ngrok-%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B-da12e19e4340)
 
-### Step 3.1: Run Comprehensive
+### Step 4.1: Run Comprehensive
 
 Navigate to the project directory and run the `run.sh` script:
 
@@ -72,7 +78,7 @@ This script will:
 - Start the backend services
 - Start the frontend services
 
-### Step 3.2: Run Seperately
+### Step 4.2: Run Seperately
 ```sh
 sh ./start_ngrok.sh
 ```
