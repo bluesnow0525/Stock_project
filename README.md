@@ -31,6 +31,8 @@ Before you begin, ensure you have met the following requirements:
 ```sh
 npm create vite@latest Stock-frontend --template react-ts
 cd Stock-frontend
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 npm install
 ```
 
