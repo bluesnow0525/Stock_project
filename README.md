@@ -52,6 +52,10 @@ pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c py
 ```
 For Ngrok installation, visit [Ngrok](https://ngrok.com/) to find the correct installation command for your system
 
+For Ngrok basic initialization, visit [Ngrok basic setup](https://happy9990929.github.io/2022/06/13/frontend-ngrok/)
+
+For Ngrok advance usage, visit[Ngrok advanced usage]()
+
 ### Step 3.1: Run Comprehensive
 
 Navigate to the project directory and run the `run.sh` script:
