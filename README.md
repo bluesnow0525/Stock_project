@@ -54,7 +54,7 @@ For Ngrok installation, visit [Ngrok](https://ngrok.com/) to find the correct in
 
 For Ngrok basic initialization, visit [Ngrok basic setup](https://happy9990929.github.io/2022/06/13/frontend-ngrok/)
 
-For Ngrok advance usage, visit[Ngrok advanced usage](https://medium.com/coding-with-fun-favor/%E9%97%9C%E6%96%BC-ngrok-%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B-da12e19e4340)
+For Ngrok advance usage, visit [Ngrok advanced usage](https://medium.com/coding-with-fun-favor/%E9%97%9C%E6%96%BC-ngrok-%E7%9A%84%E4%BA%8C%E4%B8%89%E4%BA%8B-da12e19e4340)
 
 ### Step 3.1: Run Comprehensive
 
