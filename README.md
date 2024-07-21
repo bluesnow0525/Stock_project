@@ -29,7 +29,8 @@ Before you begin, ensure you have met the following requirements:
 ### Step 1: Create a vite react project
 
 ```sh
-
+npm create vite@latest Stock-frontend --template react
+npm install
 ```
 
 ### Step 2: Clone the Repository
