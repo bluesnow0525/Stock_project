@@ -41,6 +41,7 @@ npm install
 Clone the project repository to your local machine using the following command:
 
 ```sh
+cd ..
 git clone https://github.com/DennisLiu525/Stock_Project.git
 ```
 
@@ -49,6 +50,9 @@ git clone https://github.com/DennisLiu525/Stock_Project.git
 Navigate to the project directory and install the required Python packages. It's recommended to use a virtual environment.
 
 ```sh
+cd Stock-frontend
+npm install
+cd ..
 conda update conda
 conda create -n StockEnv python=3.12
 conda activate StockEnv
