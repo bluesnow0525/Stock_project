@@ -50,6 +50,7 @@ For PyTorch installation, visit [PyTorch's Get Started Locally](https://pytorch.
 ```sh
 pip install conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia # search version for your own
 ```
+For Ngrok installation, visit [Ngrok](https://ngrok.com/) to find the correct installation command for your system
 
 ### Step 3.1: Run Comprehensive
 
