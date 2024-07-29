@@ -3,13 +3,8 @@ version: '2'
 authtoken: 2I2obkkEeCaqqINvwAbMzZeeuL2_2ngcFmKDa4cqZjPTybaUu
 
 tunnels:
-  stock-frontend:
-    addr: 5173
-    proto: http
-    host_header: localhost
-
-  stock-backend:
-    addr: 5000
+  stock:
+    addr: 80
     proto: http
     host_header: localhost
 

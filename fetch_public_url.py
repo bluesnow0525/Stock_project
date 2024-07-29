@@ -22,7 +22,8 @@ if response.status_code == 200:
     
     # 修改前端文件
     with open(r'./Stock-frontend/src/assets/apiurl.tsx','w+') as file:
-        file.write(f"export const API_BASE_URL = '{result['stock-backend']}';")
+        # file.write(f"export const API_BASE_URL = '{result['stock-backend']}';")
+        file.write(f"export const API_BASE_URL = '{result['stock']}';")
         
     # 打印结果
     for name, public_url in result.items():
