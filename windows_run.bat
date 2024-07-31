@@ -20,5 +20,8 @@ timeout /t 20
 REM Execute Python script
 "D:/DL/Documents/anaconda3/envs/StockEnv/python.exe" ./fetch_public_url.py
 
+REM Wait for 10 seconds
+timeout /t 10
+
 REM Start backend and frontend
 call start_backend_frontend.bat

@@ -13,7 +13,7 @@ if response.status_code == 200:
     result = {tunnel['name']: tunnel['public_url'] for tunnel in tunnels}
     
     # 打印结果并写入文件
-    with open(r'./Stock-backend/src/backend/public_urls.json', 'w') as file:
+    with open(r'./Stock-backend/src/backend/public_urls.json', 'w+') as file:
         json.dump(result, file, indent=4)
         
     # # 打印结果并写入文件
