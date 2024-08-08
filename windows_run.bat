@@ -18,7 +18,8 @@ REM Wait for 20 seconds
 timeout /t 20
 
 REM Execute Python script
-"D:/DL/Documents/anaconda3/envs/StockEnv/python.exe" ./fetch_public_url.py
+call conda activate StockEnv
+python ./fetch_public_url.py
 
 REM Wait for 10 seconds
 timeout /t 10
