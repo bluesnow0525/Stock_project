@@ -11,18 +11,18 @@ if errorlevel 1 (
     echo Network connection detected.
 )
 
-REM Start ngrok
-start cmd.exe /k "sh ./start_ngrok.sh"
+@REM REM Start ngrok
+@REM start cmd.exe /k "sh ./start_ngrok.sh"
 
-REM Wait for 20 seconds
-timeout /t 20
+@REM REM Wait for 20 seconds
+@REM timeout /t 20
 
-REM Execute Python script
-call conda activate StockEnv
-python ./fetch_public_url.py
+@REM REM Execute Python script
+@REM call conda activate StockEnv
+@REM python ./fetch_public_url.py
 
-REM Wait for 10 seconds
-timeout /t 10
+@REM REM Wait for 10 seconds
+@REM timeout /t 10
 
 REM Start backend and frontend
 call start_backend_frontend.bat
