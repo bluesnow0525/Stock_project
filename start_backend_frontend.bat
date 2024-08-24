@@ -10,4 +10,4 @@ REM Change directory to Stock-frontend
 cd ./Stock-frontend
 
 REM Run npm dev server
-npm run dev
+npm run preview
