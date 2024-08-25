@@ -4,7 +4,7 @@ REM Open a new cmd window and activate the Conda environment, then run the Pytho
 start cmd.exe /k "conda activate StockEnv && python ./Stock-backend/src/backend/main.py"
 
 REM Wait for 60 seconds
-timeout /t 60
+timeout /t 20
 
 REM Change directory to Stock-frontend
 cd ./Stock-frontend
