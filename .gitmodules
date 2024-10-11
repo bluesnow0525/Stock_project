@@ -1,6 +1,0 @@
-[submodule "Stock-backend"]
-	path = Stock-backend
-	url = https://github.com/DennisLiu525/Stock-backend
-[submodule "Stock-frontend"]
-	path = Stock-frontend
-	url = https://github.com/bluesnow0525/Stock-frontend
